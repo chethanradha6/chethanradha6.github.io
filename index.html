@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chethan Radha Prasad — Systems Development Engineer · DevOps & Cloud</title>
+  <meta name="description" content="Chethan Radha Prasad, Systems Development Engineer at Amazon. Cloud infrastructure, DevOps, automation and networking.">
+  <meta name="theme-color" content="#0a0a14">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='18' fill='%230a0a14'/><text x='12' y='68' font-family='monospace' font-weight='700' font-size='52' fill='%235fd4f4'>$C</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script>
+    // Apply saved theme before paint
+    document.documentElement.classList.add("js");
+    try { var t = localStorage.getItem("theme"); if (t) document.documentElement.setAttribute("data-theme", t); } catch (e) {}
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="progress" aria-hidden="true"><span id="progress-bar"></span></div>
+
+  <header class="topbar">
+    <nav class="nav" aria-label="Primary">
+      <a class="brand" href="#top" aria-label="Chethan Radha Prasad, back to top"><span class="accent">$</span> CRP</a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="icon-btn" id="theme-toggle" type="button" aria-label="Switch to light theme">
+          <svg class="i-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+          <svg class="i-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 1.5v3M12 19.5v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M1.5 12h3M19.5 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"/></svg>
+        </button>
+        <button class="icon-btn nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Open menu">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <canvas id="matrix" aria-hidden="true"></canvas>
+      <div class="hero-inner container">
+        <div class="term" aria-hidden="true">
+          <div class="term-bar">
+            <span class="dot r"></span><span class="dot y"></span><span class="dot g"></span>
+            <span class="term-title">chethan@devops: ~/portfolio</span>
+          </div>
+          <div class="term-body">
+            <p class="t-dim">$ provisioning-infrastructure --stack=prod --region=us-east-1</p>
+            <p><span class="t-user">chethan@devops</span>:<span class="t-path">~</span>$ <span id="hero-cmd" data-text="whoami"></span><span class="caret"></span></p>
+            <p class="t-out" id="hero-out" data-text="> Systems Development Engineer @ Amazon"></p>
+          </div>
+        </div>
+
+        <h1 id="hero-title" class="hero-title">
+          <span class="sr-only">Chethan Radha Prasad, </span>
+          Cloud Infrastructure <span class="amp">&amp;</span> <span class="grad">DevOps Engineer</span>
+        </h1>
+        <p class="hero-lead">
+          I'm <strong>Chethan Radha Prasad</strong>. I build self-provisioning AWS infrastructure, containerized
+          services and CI/CD pipelines, with 4+ years across <strong>Amazon</strong>, <strong>Nokia</strong> and
+          <strong>TietoEvry</strong> in development, automation, networking and testing.
+        </p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="#contact">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16v12H4z"/><path d="m4 7 8 6 8-6"/></svg>
+            Get in Touch
+          </a>
+          <a class="btn btn-ghost" href="#experience">View Experience</a>
+          <a class="btn btn-icon" href="https://www.linkedin.com/in/chethan-r-prasad" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile (opens in a new tab)">
+            <svg viewBox="0 0 24 24" aria-hidden="true" class="fill"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.5h4V21H3zM9.5 9.5h3.8v1.6h.1c.5-1 1.8-2 3.8-2 4 0 4.8 2.6 4.8 6V21h-4v-5.2c0-1.3 0-2.9-1.8-2.9s-2 1.4-2 2.8V21h-4z"/></svg>
+          </a>
+          <a class="btn btn-icon" href="https://github.com/chethanradha6" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile (opens in a new tab)">
+            <svg viewBox="0 0 24 24" aria-hidden="true" class="fill"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.7 5.39-5.26 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5z"/></svg>
+          </a>
+        </div>
+
+        <div class="cap-grid">
+          <article class="cap reveal">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 18a4.5 4.5 0 0 1-.6-9A6 6 0 0 1 18 9.5a4 4 0 0 1-.5 8.5z"/></svg>
+            <h2>Infrastructure as Code</h2>
+            <p>AWS CDK in Python &amp; TypeScript, Terraform, self-provisioning stacks</p>
+          </article>
+          <article class="cap reveal">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 7-5 5 5 5M16 7l5 5-5 5"/></svg>
+            <h2>CI/CD Automation</h2>
+            <p>GitLab CI, Jenkins and Brazil pipelines with automated tests built in</p>
+          </article>
+          <article class="cap reveal">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9h18v10H3zM7 5h10v4H7z"/><path d="M7 13h2M11 13h2M15 13h2"/></svg>
+            <h2>Containers &amp; Orchestration</h2>
+            <p>Docker stacks for reproducible environments, Kubernetes, Ansible</p>
+          </article>
+          <article class="cap reveal">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12h4l3-8 4 16 3-8h4"/></svg>
+            <h2>Observability</h2>
+            <p>Monitoring for AWS &amp; Ceph clusters, Prometheus, Grafana, auto-recovery</p>
+          </article>
+          <article class="cap reveal">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="5" r="2"/><circle cx="5" cy="19" r="2"/><circle cx="19" cy="19" r="2"/><path d="M12 7v5M12 12l-6 5M12 12l6 5"/></svg>
+            <h2>Network Automation</h2>
+            <p>Cisco switches &amp; FTDs via REST APIs, 802.1X/RADIUS, BGP, OSPF, IPsec</p>
+          </article>
+          <article class="cap reveal">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v4H4zM4 15h16v4H4z"/><path d="M8 7h.01M8 17h.01"/></svg>
+            <h2>Backend Engineering</h2>
+            <p>REST APIs in Python/Flask, Java Spring Boot microservices, SQL</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CODE IN PRODUCTION ============ -->
+    <section class="section" id="about" aria-labelledby="code-title">
+      <div class="container">
+        <header class="sec-head reveal">
+          <p class="kicker">$ tail -f /var/log/infra/deploy.log</p>
+          <h2 id="code-title">Code in <span class="grad">Production</span></h2>
+          <p class="sec-sub">The kinds of patterns I work with every day, typing live.</p>
+        </header>
+
+        <div class="editor reveal">
+          <div class="editor-bar">
+            <span class="dots" aria-hidden="true"><span class="dot r"></span><span class="dot y"></span><span class="dot g"></span></span>
+            <div class="tabs" role="tablist" aria-label="Example code files">
+              <button role="tab" class="tab" aria-selected="true" data-file="cdk"><span class="fi py" aria-hidden="true"></span>app_stack.py</button>
+              <button role="tab" class="tab" aria-selected="false" data-file="docker"><span class="fi dk" aria-hidden="true"></span>docker-compose.yml</button>
+              <button role="tab" class="tab" aria-selected="false" data-file="ci"><span class="fi gl" aria-hidden="true"></span>.gitlab-ci.yml</button>
+              <button role="tab" class="tab" aria-selected="false" data-file="nginx"><span class="fi ng" aria-hidden="true"></span>nginx.conf</button>
+            </div>
+            <span class="live" aria-hidden="true"><span class="pulse"></span>LIVE</span>
+          </div>
+          <pre class="code" role="tabpanel" aria-live="off"><code id="code-view"></code></pre>
+          <div class="editor-status" aria-hidden="true">
+            <span id="code-lang">Python</span>
+            <span>UTF-8</span>
+            <span id="code-pos">Ln 1, Col 1</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ IMPACT ============ -->
+    <section class="section alt" aria-labelledby="impact-title">
+      <div class="container">
+        <header class="sec-head reveal">
+          <p class="kicker">$ cat /etc/profile.d/impact.conf</p>
+          <h2 id="impact-title">Impact by the <span class="grad">Numbers</span></h2>
+          <p class="sec-sub">A few figures from my work and studies.</p>
+        </header>
+        <div class="stats">
+          <div class="stat reveal"><p class="num"><span class="count" data-to="4">4</span>+</p><h3>Years Experience</h3><p>Development, DevOps &amp; automation</p></div>
+          <div class="stat reveal"><p class="num"><span class="count" data-to="60">60</span>%</p><h3>Faster Testing</h3><p>System-testing efficiency via digital twin</p></div>
+          <div class="stat reveal"><p class="num"><span class="count" data-to="5">5</span></p><h3>Engineering Roles</h3><p>Amazon, Nokia ×2, WISE, TietoEvry</p></div>
+          <div class="stat reveal"><p class="num"><span class="count" data-to="30">30</span>+</p><h3>Technologies</h3><p>Languages, cloud, data &amp; networking</p></div>
+          <div class="stat reveal"><p class="num"><span class="count" data-to="4">4</span></p><h3>Engineers Led</h3><p>Digital-twin research team</p></div>
+          <div class="stat reveal"><p class="num"><span class="count" data-to="3.7" data-dec="1">3.7</span></p><h3>Master's GPA</h3><p>MS Computer Science, SUNY Binghamton</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section class="section" id="skills" aria-labelledby="skills-title">
+      <div class="container">
+        <header class="sec-head reveal">
+          <p class="kicker">$ grep -r "skills" ~/stack | sort -u</p>
+          <h2 id="skills-title">Tech <span class="grad">Stack</span></h2>
+          <p class="sec-sub">Tools I use to build, ship and run systems.</p>
+        </header>
+
+        <ul class="skill-grid" id="skill-grid">
+          <li class="skill"><i class="devicon-amazonwebservices-plain-wordmark colored" aria-hidden="true"></i><span>AWS / CDK</span></li>
+          <li class="skill"><i class="devicon-docker-plain colored" aria-hidden="true"></i><span>Docker</span></li>
+          <li class="skill"><i class="devicon-kubernetes-plain colored" aria-hidden="true"></i><span>Kubernetes</span></li>
+          <li class="skill"><i class="devicon-terraform-plain colored" aria-hidden="true"></i><span>Terraform</span></li>
+          <li class="skill"><i class="devicon-ansible-plain colored" aria-hidden="true"></i><span>Ansible</span></li>
+          <li class="skill"><i class="devicon-gitlab-plain colored" aria-hidden="true"></i><span>GitLab CI/CD</span></li>
+          <li class="skill"><i class="devicon-jenkins-line colored" aria-hidden="true"></i><span>Jenkins</span></li>
+          <li class="skill"><i class="devicon-python-plain colored" aria-hidden="true"></i><span>Python</span></li>
+          <li class="skill"><i class="devicon-java-plain colored" aria-hidden="true"></i><span>Java</span></li>
+          <li class="skill"><i class="devicon-typescript-plain colored" aria-hidden="true"></i><span>TypeScript</span></li>
+          <li class="skill"><i class="devicon-go-original-wordmark colored" aria-hidden="true"></i><span>Go</span></li>
+          <li class="skill"><i class="devicon-linux-plain" aria-hidden="true"></i><span>Linux</span></li>
+          <li class="skill"><i class="devicon-nginx-original colored" aria-hidden="true"></i><span>Nginx</span></li>
+          <li class="skill"><i class="devicon-prometheus-original colored" aria-hidden="true"></i><span>Prometheus</span></li>
+          <li class="skill"><i class="devicon-grafana-plain colored" aria-hidden="true"></i><span>Grafana</span></li>
+          <li class="skill"><i class="devicon-apachekafka-original" aria-hidden="true"></i><span>Apache Kafka</span></li>
+          <li class="skill more"><i class="devicon-postgresql-plain colored" aria-hidden="true"></i><span>PostgreSQL</span></li>
+          <li class="skill more"><i class="devicon-mysql-plain colored" aria-hidden="true"></i><span>MySQL</span></li>
+          <li class="skill more"><i class="devicon-cassandra-plain colored" aria-hidden="true"></i><span>Cassandra</span></li>
+          <li class="skill more"><i class="devicon-puppet-plain colored" aria-hidden="true"></i><span>Puppet</span></li>
+          <li class="skill more"><i class="devicon-flask-original" aria-hidden="true"></i><span>Flask</span></li>
+          <li class="skill more"><i class="devicon-spring-plain colored" aria-hidden="true"></i><span>Spring Boot</span></li>
+          <li class="skill more"><i class="devicon-javascript-plain colored" aria-hidden="true"></i><span>JavaScript</span></li>
+          <li class="skill more"><i class="devicon-c-plain colored" aria-hidden="true"></i><span>C</span></li>
+          <li class="skill more"><i class="devicon-cplusplus-plain colored" aria-hidden="true"></i><span>C++</span></li>
+          <li class="skill more"><i class="devicon-csharp-plain colored" aria-hidden="true"></i><span>C# / VB.NET</span></li>
+          <li class="skill more"><i class="devicon-bash-plain" aria-hidden="true"></i><span>Bash</span></li>
+          <li class="skill more"><i class="devicon-git-plain colored" aria-hidden="true"></i><span>Git</span></li>
+          <li class="skill more"><i class="devicon-tensorflow-original colored" aria-hidden="true"></i><span>TensorFlow</span></li>
+          <li class="skill more"><i class="devicon-postman-plain colored" aria-hidden="true"></i><span>Postman</span></li>
+        </ul>
+        <div class="center">
+          <button class="btn btn-ghost small" id="skills-more" type="button" aria-expanded="false" aria-controls="skill-grid">Show More <span aria-hidden="true">▾</span></button>
+        </div>
+
+        <div class="net reveal">
+          <h3 class="net-title"><span class="accent">#</span> networking</h3>
+          <ul class="chips">
+            <li>TCP/IP</li><li>OSI</li><li>DNS</li><li>DHCP</li><li>ARP</li><li>ICMP</li><li>BGP</li><li>OSPF</li>
+            <li>MPLS</li><li>NAT</li><li>Subnetting</li><li>IPv4 / IPv6</li><li>IPsec</li><li>TLS</li><li>802.1X / RADIUS</li>
+            <li>Cisco &amp; Juniper</li><li>Wireshark</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EXPERIENCE ============ -->
+    <section class="section alt" id="experience" aria-labelledby="exp-title">
+      <div class="container">
+        <header class="sec-head reveal">
+          <p class="kicker">$ cat /var/log/work-history.log | head -20</p>
+          <h2 id="exp-title">Work <span class="grad">Experience</span></h2>
+        </header>
+
+        <ol class="timeline">
+          <li class="job reveal">
+            <div class="job-card">
+              <div class="job-head">
+                <span class="logo" aria-hidden="true">A</span>
+                <div>
+                  <h3>Systems Development Engineer I</h3>
+                  <p class="org">Amazon · Ring &amp; Blink</p>
+                </div>
+                <p class="when">Mar 2024 — Present<br><span>North Reading, MA</span></p>
+              </div>
+              <ul class="bullets">
+                <li>Built AWS CDK stacks in Python and TypeScript so contract manufacturers can provision AWS infrastructure automatically and at scale.</li>
+                <li>Containerized services and built Docker stacks that give every contract manufacturer a reproducible environment.</li>
+                <li>Developed monitoring and observability for AWS infrastructure and Ceph clusters, reducing downtime and automating system recovery.</li>
+                <li>Automated Cisco switch and FTD management with REST APIs, and wired the infrastructure code into CI/CD with Brazil builds, CDK workflows and automated tests.</li>
+              </ul>
+              <ul class="chips small"><li>AWS CDK</li><li>Python</li><li>TypeScript</li><li>Docker</li><li>Ceph</li><li>Cisco APIs</li><li>CI/CD</li></ul>
+            </div>
+          </li>
+          <li class="job reveal">
+            <div class="job-card">
+              <div class="job-head">
+                <span class="logo" aria-hidden="true">N</span>
+                <div>
+                  <h3>DevOps (Network Infrastructure) Intern</h3>
+                  <p class="org">Nokia</p>
+                </div>
+                <p class="when">May 2023 — Mar 2024<br><span>Sunnyvale, CA</span></p>
+              </div>
+              <ul class="bullets">
+                <li>Developed REST APIs and containerized a Python Flask application through GitLab CI, with shell automation.</li>
+                <li>Set up an Nginx reverse proxy with load balancing that noticeably improved application response times.</li>
+                <li>Deployed the application across multiple sites with Ansible, with Prometheus and Grafana for metrics.</li>
+              </ul>
+              <ul class="chips small"><li>Flask</li><li>GitLab CI</li><li>Nginx</li><li>Ansible</li><li>Prometheus</li><li>Grafana</li></ul>
+            </div>
+          </li>
+          <li class="job reveal">
+            <div class="job-card">
+              <div class="job-head">
+                <span class="logo" aria-hidden="true">W</span>
+                <div>
+                  <h3>Graduate Research Associate</h3>
+                  <p class="org">WISE, Binghamton University · Client: iA</p>
+                </div>
+                <p class="when">Feb 2022 — Jan 2023<br><span>Binghamton, NY</span></p>
+              </div>
+              <ul class="bullets">
+                <li>Led a team of four building a digital twin, in the form of a machine emulator for an in-house application.</li>
+                <li>Built real-time monitoring in VB.NET, integrating FlexSim emulation with SQL for large pharmacy automation systems.</li>
+                <li>Improved system-testing efficiency by 60% using the digital twin, without building real-time hardware.</li>
+                <li>Recognized as best performer, with accolades from the Dean and Distinguished Professors.</li>
+              </ul>
+              <ul class="chips small"><li>VB.NET</li><li>FlexSim</li><li>SQL</li><li>Team Lead</li></ul>
+            </div>
+          </li>
+          <li class="job reveal">
+            <div class="job-card">
+              <div class="job-head">
+                <span class="logo" aria-hidden="true">N</span>
+                <div>
+                  <h3>Software Engineer</h3>
+                  <p class="org">Nokia Networks · R&amp;D</p>
+                </div>
+                <p class="when">Oct 2020 — Feb 2022<br><span>Bangalore, India</span></p>
+              </div>
+              <ul class="bullets">
+                <li>Automated and implemented 5G/4G telecom features in Nokia Networks R&amp;D.</li>
+                <li>Implemented 802.1X authentication with a RADIUS server (AAA) for port-based access control of new devices using EAP.</li>
+                <li>Wrote Python and shell automation for the new features in Linux environments, alongside Ansible.</li>
+                <li>Deployed and integrated IPv4, IPv6, IPsec, TLS and CMP networking features.</li>
+              </ul>
+              <ul class="chips small"><li>5G/4G</li><li>802.1X</li><li>RADIUS</li><li>Python</li><li>Ansible</li><li>IPsec</li></ul>
+            </div>
+          </li>
+          <li class="job reveal">
+            <div class="job-card">
+              <div class="job-head">
+                <span class="logo" aria-hidden="true">T</span>
+                <div>
+                  <h3>Software Engineer</h3>
+                  <p class="org">TietoEvry · Banking &amp; Financial Services</p>
+                </div>
+                <p class="when">Jun 2019 — Sep 2020<br><span>Bangalore, India</span></p>
+              </div>
+              <ul class="bullets">
+                <li>Started as a trainee engineer and developed Spring Boot microservices.</li>
+                <li>Integrated JDBC and SQL in Maven projects with JUnit tests to verify and validate bank payments.</li>
+              </ul>
+              <ul class="chips small"><li>Java</li><li>Spring Boot</li><li>JDBC</li><li>Maven</li><li>JUnit</li></ul>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section class="section" id="projects" aria-labelledby="proj-title">
+      <div class="container">
+        <header class="sec-head reveal">
+          <p class="kicker">$ ls -la ~/projects/featured</p>
+          <h2 id="proj-title">Featured <span class="grad">Projects</span></h2>
+        </header>
+
+        <div class="proj-list">
+          <article class="proj reveal">
+            <span class="proj-num" aria-hidden="true">01</span>
+            <div class="proj-body">
+              <h3>LEO Satellites Routing Orchestrator</h3>
+              <p class="proj-meta">May 2023 · Python · Apache Kafka · PostgreSQL</p>
+              <p>A routing strategy for a dynamic LEO54 satellite topology, based on a Walker constellation.</p>
+              <ul class="bullets">
+                <li>Computed routes over the changing topology with the A* algorithm, streaming updates through Kafka.</li>
+                <li>Stored state in PostgreSQL and built a GitLab CI/CD pipeline for seamless integration.</li>
+              </ul>
+              <ul class="chips small"><li>Python</li><li>Kafka</li><li>PostgreSQL</li><li>A*</li><li>GitLab CI</li></ul>
+            </div>
+          </article>
+          <article class="proj reveal">
+            <span class="proj-num" aria-hidden="true">02</span>
+            <div class="proj-body">
+              <h3>APEX Out-of-Order Processor Simulator</h3>
+              <p class="proj-meta">Oct 2022 · C</p>
+              <p>A cycle-level simulator for an out-of-order processor pipeline.</p>
+              <ul class="bullets">
+                <li>Added tag broadcasting and more functional units, and optimized clock cycles.</li>
+                <li>Implemented branch prediction for instructions across multiple registers with FIFO queues.</li>
+              </ul>
+              <ul class="chips small"><li>C</li><li>Computer Architecture</li><li>Pipelining</li></ul>
+            </div>
+          </article>
+          <article class="proj reveal">
+            <span class="proj-num" aria-hidden="true">03</span>
+            <div class="proj-body">
+              <h3>Student Registration System</h3>
+              <p class="proj-meta">Apr 2022 · Java · PL/SQL</p>
+              <p>A database-driven system for enrolling students in and dropping them from classes.</p>
+              <ul class="bullets">
+                <li>Wrote PL/SQL stored procedures and triggers that enforce class size, prerequisites and credit requirements.</li>
+                <li>Built a simple, productive Java Swing interface for users.</li>
+              </ul>
+              <ul class="chips small"><li>Java</li><li>Swing</li><li>PL/SQL</li><li>Triggers</li></ul>
+            </div>
+          </article>
+          <article class="proj reveal">
+            <span class="proj-num" aria-hidden="true">04</span>
+            <div class="proj-body">
+              <h3>Sign Language Recognition with ML</h3>
+              <p class="proj-meta">Jun 2019 · Python · TensorFlow</p>
+              <p>A model that recognizes American Sign Language from images.</p>
+              <ul class="bullets">
+                <li>Built a convolutional neural network (CNN) prediction model for ASL gestures.</li>
+                <li>Trained on real-world datasets with TensorFlow, reaching 90% accuracy in real time.</li>
+              </ul>
+              <ul class="chips small"><li>Python</li><li>TensorFlow</li><li>CNN</li><li>Image Processing</li></ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EDUCATION ============ -->
+    <section class="section alt" id="education" aria-labelledby="edu-title">
+      <div class="container">
+        <header class="sec-head reveal">
+          <p class="kicker">$ cat ~/education.yaml</p>
+          <h2 id="edu-title"><span class="grad">Education</span></h2>
+        </header>
+        <div class="edu-grid">
+          <article class="edu reveal">
+            <p class="when">Feb 2022 — Feb 2024</p>
+            <h3>Master of Science, Computer Science</h3>
+            <p class="org">State University of New York, Binghamton</p>
+            <p class="gpa">GPA <strong>3.7</strong> / 4.0</p>
+            <p class="course">Algorithms · Computer Architecture · Operating Systems · Cloud Computing · Computer Security · Database Systems · Design Patterns · Programming Languages</p>
+          </article>
+          <article class="edu reveal">
+            <p class="when">Jul 2015 — Jun 2019</p>
+            <h3>Bachelor of Engineering, Computer Science</h3>
+            <p class="org">Mangalore Institute of Technology &amp; Engineering, VTU</p>
+            <p class="gpa">CGPA <strong>7.14</strong> / 10</p>
+            <p class="course">Data Structures · Computer Networks · Operating Systems · Unix &amp; Shell Programming · Data Communications · Big Data Analytics</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section" id="contact" aria-labelledby="contact-title">
+      <div class="container narrow">
+        <header class="sec-head reveal">
+          <p class="kicker">$ ssh chethan@contact</p>
+          <h2 id="contact-title">Let's <span class="grad">Connect</span></h2>
+          <p class="sec-sub">Open to conversations about DevOps, cloud infrastructure and backend engineering roles.</p>
+        </header>
+        <div class="contact-grid reveal">
+          <a class="contact-card" href="mailto:crp1ep1@gmail.com">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16v12H4z"/><path d="m4 7 8 6 8-6"/></svg>
+            <span class="c-label">Email</span>
+            <span class="c-val">crp1ep1@gmail.com</span>
+          </a>
+          <a class="contact-card" href="https://www.linkedin.com/in/chethan-r-prasad" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" aria-hidden="true" class="fill"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.5h4V21H3zM9.5 9.5h3.8v1.6h.1c.5-1 1.8-2 3.8-2 4 0 4.8 2.6 4.8 6V21h-4v-5.2c0-1.3 0-2.9-1.8-2.9s-2 1.4-2 2.8V21h-4z"/></svg>
+            <span class="c-label">LinkedIn</span>
+            <span class="c-val">chethan-r-prasad<span class="sr-only"> (opens in a new tab)</span></span>
+          </a>
+          <a class="contact-card" href="https://github.com/chethanradha6" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" aria-hidden="true" class="fill"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.7 5.39-5.26 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5z"/></svg>
+            <span class="c-label">GitHub</span>
+            <span class="c-val">chethanradha6<span class="sr-only"> (opens in a new tab)</span></span>
+          </a>
+          <div class="contact-card static">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
+            <span class="c-label">Location</span>
+            <span class="c-val">Binghamton, NY</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p><span class="accent">chethan@devops</span>:~$ echo "© <span id="year">2026</span> Chethan Radha Prasad · built with HTML, CSS &amp; JS · served by GitHub Pages"</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
